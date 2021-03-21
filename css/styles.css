@@ -22,7 +22,7 @@
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   /* background-color: plum; */
 }
 
@@ -88,9 +88,9 @@ p {
 /* хедер-новігація */
 
 .page-header {
-  background-color: rgb(204, 204, 204);
+  /* background-color: rgb(204, 204, 204); */
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
 /* контейнер навігації */
 .main-page {
@@ -165,15 +165,13 @@ p {
   font-size: 16px;
   line-height: 1.87;
   display: inline-block;
-  /* align-items: center; */
-  /* text-align: center; */
-  /* letter-spacing: 0.06em; */
+  
 }
 .button:hover,
 .button:focus {
   background-color: #188ce8;
 }
-
+/* кнопки портфоліо */
 .button-portfolio {
  display: inline-block;
   padding: 6px 22px;
@@ -191,11 +189,15 @@ p {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);  
 }
-.button-portfolio:hover
-.button-portfolio:focus {
+.button-portfolio:hover{
   color: #ffffff;
   background-color: var(--accent-color);
 }
+.button-portfolio:focus{
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
 .button-nav .button-portfolio.curent{
   background-color:var(--accent-color);
 }

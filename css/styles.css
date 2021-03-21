@@ -89,6 +89,7 @@ p {
 
 .page-header {
   /* background-color: rgb(204, 204, 204); */
+ border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
 }

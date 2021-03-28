@@ -55,6 +55,11 @@ p {
   padding-left: 0px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* клас, щоб приховати заголовок */
 .visually-hidden {
@@ -172,6 +177,7 @@ p {
 .button:focus {
   background-color: #188ce8;
 }
+
 /* кнопки портфоліо */
 .button-portfolio {
  display: inline-block;
@@ -352,6 +358,8 @@ p {
 /* Секція footer */
 .section-footer {
   background-color: var(--background-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section-footer .adress {
   color: #ffffff;
@@ -396,11 +404,31 @@ p {
   margin: 0px;
   margin-left: -30px;
   margin-top: -30px;
+  padding-top: 50px;
 }
 .portfollio-item{
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 3 * 30px) / 3);
+}
+.foto{
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+.button-nav{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.button-nav:not(:last-child){
+  margin-right: 8px;
 }
 /* колір лого header: 000000, #2196F3 */
 /* колір заголовків #212121 */
